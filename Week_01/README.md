@@ -21,11 +21,12 @@ jhsdb jmap --heap --pid PID
 
 主机配置： 8GB内存 4核
 
+```
  java -jar -Xmx1g -Xms1g -XX:-UseAdaptiveSizePolicy -XX:+UseSerialGC -Xlog:gc* gateway-server-0.0.1-SNAPSHOT.jar
  java -jar -Xmx1g -Xms1g -XX:-UseAdaptiveSizePolicy -XX:+UseConcMarkSweepGC -Xlog:gc* gateway-server-0.0.1-SNAPSHOT.jar
  java -jar -Xmx1g -Xms1g -XX:-UseAdaptiveSizePolicy -XX:+UseParallelGC -Xlog:gc* gateway-server-0.0.1-SNAPSHOT.jar
  java -jar -Xmx1g -Xms1g -XX:-UseAdaptiveSizePolicy -XX:+UseG1GC -Xlog:gc* gateway-server-0.0.1-SNAPSHOT.jar
-
+```
 
 |          | QPS | STW | YGC次数 | YGC耗时 | FGC次数 | FGC耗时 |
 | -------- | --- | --- | ----- | ----- | ----- | ----- |
