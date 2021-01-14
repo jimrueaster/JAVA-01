@@ -1,8 +1,13 @@
 # 学习笔记
 
+## 第一课作业
 
+### 第二题
+[第二题](https://github.com/jimrueaster/JAVA-01/tree/main/Week_01/hw02)
 
+### 第三题
 
+![第三题作业图](https://github.com/jimrueaster/JAVA-01/blob/main/Week_01/hw03/relation-of-jvm-params.png)
 
 ## 第二课作业
 
