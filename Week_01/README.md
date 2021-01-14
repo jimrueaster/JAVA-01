@@ -1,5 +1,20 @@
 # 学习笔记
 
+
+## 命令
+
+Java11:
+
+弃用 -XX:+PrintGCDetails，改用 -Xlog:gc*
+
+如 java -jar -Xmx1g -Xms1g -XX:-UseAdaptiveSizePolicy -XX:+UseParallelGC -Xlog:gc* gateway-server-0.0.1-SNAPSHOT.jar
+
+
+弃用 jmap -heap, 改用：
+
+jhsdb jmap --heap --pid PID
+
+
 ## 第二课作业
 
 压测：并发 100，总请求数 10000
