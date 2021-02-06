@@ -3,6 +3,5 @@
 * Runnable
 * ThreadPoolExecutor + submit()
 * CompletableFuture
-
 * CountDownLatch
 * CyclicBarrier
